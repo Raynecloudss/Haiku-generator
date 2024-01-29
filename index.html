@@ -7,46 +7,49 @@
     <title>Haiku Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Haiku Generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the haiku"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-        <div>
-          Haiku here
+    <div class="container">
+      <header>
+        <h1>Haiku Generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of the haiku"
+            autofocus
+            required
+            autocomplete="off"
+            class="topic"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div id="poem-lines" class="poem-lines">
+          Haiku line 1 here
           <br />
-          haiku here
+          haiku line 2 here
           <br />
-          haiku here
+          haiku line 3 here
         </div>
-      </form>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://www.linkedin.com/in/fallsavane" target="_blank"
-        >Avané Falls</a
-      >, hosted on
-      <a
-        href="https://graceful-pothos-e49b8e.netlify.app"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Netlify</a
-      >, and open-sourced on
-      <a
-        href="https://github.com/Raynecloudss"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Github</a
-      >
-    </footer>
-    <script src="src/javascript.js"></script>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://www.linkedin.com/in/fallsavane" target="_blank"
+          >Avané Falls</a
+        >, hosted on
+        <a
+          href="https://graceful-pothos-e49b8e.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Netlify</a
+        >, and open-sourced on
+        <a
+          href="https://github.com/Raynecloudss"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Github</a
+        >
+      </footer>
+      <script src="src/javascript.js"></script>
+    </div>
   </body>
 </html>
