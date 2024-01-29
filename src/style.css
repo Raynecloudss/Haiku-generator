@@ -55,3 +55,7 @@ footer {
   border-radius: 25px;
   padding: 15px 25px;
 }
+
+.haiku-lines strong {
+  color: #405e77;
+}
