@@ -14,18 +14,21 @@
         <h1>Haiku Generator</h1>
       </header>
       <main>
-        <form id="haiku-generator">
-          <input
-            type="text"
-            placeholder="Enter the topic of the haiku"
-            autofocus
-            required
-            autocomplete="off"
-            class="topic"
-            id="topic"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="haiku-generator">
+            <input
+              type="text"
+              placeholder="Enter the topic of the haiku"
+              autofocus
+              required
+              autocomplete="off"
+              class="topic"
+              id="topic"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <small class="hints">i.e: Love, Fame, Money</small>
+        </div>
         <div id="haiku-lines" class="haiku-lines"></div>
       </main>
       <footer>
